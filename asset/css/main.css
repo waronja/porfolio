@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.menu-bar {
+    color: white;
+    background: linear-gradient(214.02deg, rgba(183, 92, 255, 0.5) 6.04%, rgba(103, 26, 228, 0.5) 92.95%);
+    padding: 25px 122px;
+    width: 100%;
+}
+
+.menu-bar > div {
+    display: inline;
+}
+
+nav {
+    display: inline;
+    float: right;
+} 
+
+nav > a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    margin-left: 30px;
+}
+
+a.lets-talk {
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+    padding: 10px 20px;
+    border-radius: 100px;
+}
+
+.home {
+display: flex;
+justify-content: space-between;
+margin: 40px;
+
+}
+
+.container > h1 {
+
+    text-align: center;
+}
+
+#career1{
+
+    color: aliceblue;
+    padding-top: 200px ;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+    /* padding: 10px 20px; */
+    border-radius: 100px;
+}
+#career1>p {
+
+    text-align: center;
+    
+
+}
+
+#career2 {
+
+    color: aliceblue;
+    padding-top: 500px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+    /* padding: 10px 20px; */
+    border-radius: 100px;
+}
+#career2 > p{
+
+    text-align: center;
+}
+.profile-pic{
+    width :50%;
+
+}
+
+.profile-pic > img {
+    width: 100%;
+
+}
+
+#transition-rectangle{
+
+    background-color: #181E41;
+    padding: 40px 122px;
+    width: 100%;
+    margin: 10px;
+}
+
+.about-me {
+
+    display: flex;
+    background: rgba(183, 92, 255, 1);
+    padding: 30px;
+    
+
+
+}
+
+#aboutmetxt{
+
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    color: aliceblue;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 120%;
+
+    
+
+}
+
+
+#description{
+    text-align: center;
+    margin: 20px;
+    padding: 20px; 
+    color: aliceblue;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 40px;
+        /* or 54px */
+    letter-spacing: 0.3px;
+
+}
+
+
+#stats {
+    display: flex;
+    align-items: center;
+    padding: 70px;
+    justify-content: space-between;
+    background: rgba(183, 92, 255, 1);
+    
+}
+
+#stat1, #stat2 , #stat3 {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 120%;
+    color: aliceblue;
+}
+
+/*My Services*/
+
+.services {
+    display: flex;
+    /* background: rgba(183, 92, 255, 1); */
+    padding: 20px;
+    
+
+}
+
+#service1 {
+
+    height: 460px;
+    width: 288px;
+    left: 0px;
+    top: 0px;
+    border-radius: 30px;
+    background: rgba(183, 92, 255, 1);
+    text-align: center;
+
+    padding-top: 200px;
+    padding-right: 52px;
+    /* padding-bottom: ; */
+    padding-left: 52px;
+    color: aliceblue;
+    margin-right: 30px;
+
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+ }
+
+ #service1 p {
+
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        margin-top: 15px;
+ }
+
+
+#service2 {
+
+    height: 460px;
+    width: 288px;
+    left: 0px;
+    top: 0px;
+    border-radius: 30px;
+    background: rgba(183, 92, 255, 1);
+    text-align: center;
+    color: aliceblue;
+    padding-top: 200px;
+    padding-right: 52px;
+    /* padding-bottom: ; */
+    padding-left: 52px;
+    margin-right: 145px;
+
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+}
+
+#service2 p {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    margin-top: 15px;
+}
+
+#service-stats {
+
+font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    margin-top: 15px;
+
+    height: 472px;
+        width: 461px;
+        left: 736px;
+        top: 0px;
+        border-radius: 0px;
+
+}
+
+#service-stats h1 {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 20px;
+    line-height: 120%;
+    margin-top: 15px;
+
+    text-align: center;
+}
+
+#service-stats h2 {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    margin-top: 70px;
+
+    /* text-align: center; */
+}
+
+#service-stats p {
+
+font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    margin-top: 30px;
+
+    text-align: center;
+}
+
+
+
+
+.lets-talk {
+
+left: 0px;
+top: 0px;
+border-radius: 0px;
+background-color: #181E41;
+margin-top: 30px;
+    
+}
+
+.lets-talk h1 {
+
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: azure;
+
+    padding-top: 40px;
+   
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.form [type = "text"] {
+
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+
+#message {
+
+    height: 180px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        resize: none;
+}
+.form [type = "submit"] {
+
+    background-color: #671AE4 92.95%;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: #181E41;
+        
+}
