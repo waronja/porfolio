@@ -1,6 +1,6 @@
 # Welcome to my Portfolio !!
 
-## You will be recieving and Viweing chnges as they happen so stay tuned for more !!!
+## Click on the link below to see the live version !!!
 
 https://waronja.github.io/portfolio/
 
